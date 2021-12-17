@@ -1,0 +1,15 @@
+C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.DataAccess\bin\Debug\netcoreapp3.1\AdventureWorks.DataAccess.deps.json
+C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.DataAccess\bin\Debug\netcoreapp3.1\AdventureWorks.DataAccess.dll
+C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.DataAccess\obj\Debug\netcoreapp3.1\AdventureWorks.DataAccess.csprojAssemblyReference.cache
+C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.DataAccess\obj\Debug\netcoreapp3.1\AdventureWorks.DataAccess.AssemblyInfoInputs.cache
+C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.DataAccess\obj\Debug\netcoreapp3.1\AdventureWorks.DataAccess.AssemblyInfo.cs
+C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.DataAccess\bin\Debug\netcoreapp3.1\AdventureWorks.DataAccess.runtimeconfig.json
+C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.DataAccess\bin\Debug\netcoreapp3.1\AdventureWorks.DataAccess.runtimeconfig.dev.json
+C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.DataAccess\obj\Debug\netcoreapp3.1\AdventureWorks.DataAccess.genruntimeconfig.cache
+C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.DataAccess\bin\Debug\netcoreapp3.1\AdventureWorks.DataAccess.pdb
+C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.DataAccess\obj\Debug\netcoreapp3.1\AdventureWorks.DataAccess.dll
+C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.DataAccess\obj\Debug\netcoreapp3.1\AdventureWorks.DataAccess.pdb
+C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.DataAccess\bin\Debug\netcoreapp3.1\AdventureWorks.Core.dll
+C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.DataAccess\bin\Debug\netcoreapp3.1\AdventureWorks.Core.pdb
+C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.DataAccess\obj\Debug\netcoreapp3.1\AdventureWorks.DataAccess.csproj.CopyComplete
+C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.DataAccess\obj\Debug\netcoreapp3.1\AdventureWorks.DataAccess.csproj.CoreCompileInputs.cache
