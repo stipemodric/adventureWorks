@@ -5,10 +5,11 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using AdventureWorks.Core.ViewModels.Kupac;
 
 namespace AdventureWorks.DataAccess.Repositories
 {
-    public class KupacRepository : AuxiliaryRepository<Kupac>
+    public class KupacRepository : AuxiliaryRepository<KupacAddViewModel, Kupac>
     {
         public KupacRepository(AdventureWorksOBPContext context) : base(context)
         {

@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
+using AdventureWorks.Core.ViewModels.Racun;
 
 namespace AdventureWorks.DataAccess.Repositories
 {
-    public class RacunRepository : AuxiliaryRepository<Racun>
+    public class RacunRepository : AuxiliaryRepository<RacunAddViewModel, Racun>
     {
         public RacunRepository(AdventureWorksOBPContext context) : base(context)
         {

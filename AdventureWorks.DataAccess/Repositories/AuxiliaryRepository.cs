@@ -1,4 +1,5 @@
-﻿using AdventureWorks.Models;
+﻿using AdventureWorks.Core.Contracts;
+using AdventureWorks.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,8 +9,8 @@ using System.Threading.Tasks;
 namespace AdventureWorks.DataAccess.Repositories
 {
     public abstract class AuxiliaryRepository<TAddViewModel, TEntity> 
-        where TEntity: class
-        where TAddViewModel: class
+        where TEntity : class, new()
+        where TAddViewModel : IAddViewModel<TEntity>
     {
         protected AdventureWorksOBPContext _context;
         public AuxiliaryRepository(AdventureWorksOBPContext context)
@@ -38,13 +39,11 @@ namespace AdventureWorks.DataAccess.Repositories
 
             try
             {
-                var entity = viewModel.
+                var entity = viewModel.ToEntity();
 
-                _context.Add(viewModel);
+                _context.Set<TEntity>().Add(entity);
 
-                await _context.SaveChangesAsync();
-
-                return viewModel;
+                return await _context.SaveChangesAsync();
             }
             catch (Exception)
             {

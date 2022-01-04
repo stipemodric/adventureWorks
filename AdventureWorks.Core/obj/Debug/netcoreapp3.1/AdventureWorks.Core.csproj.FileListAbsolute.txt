@@ -4,7 +4,6 @@ C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.Core\obj\Debug\netco
 C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.Core\obj\Debug\netcoreapp3.1\AdventureWorks.Core.AssemblyInfo.cs
 C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.Core\bin\Debug\netcoreapp3.1\AdventureWorks.Core.runtimeconfig.json
 C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.Core\bin\Debug\netcoreapp3.1\AdventureWorks.Core.runtimeconfig.dev.json
-C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.Core\obj\Debug\netcoreapp3.1\AdventureWorks.Core.csprojAssemblyReference.cache
 C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.Core\obj\Debug\netcoreapp3.1\AdventureWorks.Core.genruntimeconfig.cache
 C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.Core\bin\Debug\netcoreapp3.1\AdventureWorks.Core.pdb
 C:\Users\smodric\source\repos\AdventureWorks\AdventureWorks.Core\obj\Debug\netcoreapp3.1\AdventureWorks.Core.dll

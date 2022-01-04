@@ -1,4 +1,5 @@
-﻿using AdventureWorks.Core.ViewModels.Grad;
+﻿using AdventureWorks.Core.Contracts;
+using AdventureWorks.Core.ViewModels.Grad;
 using AdventureWorks.Models;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using DrzavaEntity = AdventureWorks.Models.Drzava;
 
 namespace AdventureWorks.Core.ViewModels.Drzava
 {
-    public class DrzavaAddViewModel
+    public class DrzavaAddViewModel : IAddViewModel<DrzavaEntity>
     {
         public string Naziv { get; set; }
 

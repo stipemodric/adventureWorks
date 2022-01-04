@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using AdventureWorks.Models;
 using AdventureWorks.DataAccess.Repositories;
+using AdventureWorks.Core.ViewModels.Drzava;
 
 namespace AdventureWorks.Controllers
 {
@@ -15,8 +16,8 @@ namespace AdventureWorks.Controllers
     public class DrzavaController : ControllerBase
     {
         private readonly AdventureWorksOBPContext _context;
-        private AuxiliaryRepository<Drzava> _auxRepo;
-        public DrzavaController(AuxiliaryRepository<Drzava> auxRepo)
+        private AuxiliaryRepository<DrzavaAddViewModel, Drzava> _auxRepo;
+        public DrzavaController(AuxiliaryRepository<DrzavaAddViewModel, Drzava> auxRepo)
         {
             _auxRepo = auxRepo;
         }
@@ -78,7 +79,7 @@ namespace AdventureWorks.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<Drzava>> PostDrzava(Drzava drzava)
+        public async Task<int> PostDrzava(DrzavaAddViewModel drzava)
         {
             //_context.Drzavas.Add(drzava);
             //await _context.SaveChangesAsync();

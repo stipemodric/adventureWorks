@@ -5,10 +5,11 @@ using System.Text;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
+using AdventureWorks.Core.ViewModels.Grad;
 
 namespace AdventureWorks.DataAccess.Repositories
 {
-    public class GradRepository : AuxiliaryRepository<Grad>
+    public class GradRepository : AuxiliaryRepository<GradAddViewModel, Grad>
     {
         public GradRepository(AdventureWorksOBPContext context) : base(context)
         {

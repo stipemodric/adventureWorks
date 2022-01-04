@@ -1,4 +1,5 @@
-﻿using AdventureWorks.Models;
+﻿using AdventureWorks.Core.Contracts;
+using AdventureWorks.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -6,7 +7,7 @@ using GradEntity = AdventureWorks.Models.Grad;
 
 namespace AdventureWorks.Core.ViewModels.Grad
 {
-    public class GradAddViewModel
+    public class GradAddViewModel : IAddViewModel<GradEntity>
     {
         public string Naziv { get; set; }
         public int DrzavaId { get; set; }
